@@ -3,7 +3,7 @@
 
 This is a developer test for new candidates at all levels and is designed to gauge overall levels of understanding for web development
 
-###General
+### General
 
 Create a work folder and clone the code in this repository. Create a new local branch for this repository for your work, and calling the branch your name and the date in the format yyyy-mm-dd
 
@@ -14,7 +14,7 @@ You may wish to also edit the ignore file so that unnecessary code that does not
 At the end of the test commit your branch locally for review using a pull or merge request
 
 
-###Fizz Buzz Test - Suggested time : 5 minutes
+### Fizz Buzz Test - Suggested time : 5 minutes
 ***
 
 Task : Write an app which will print the numbers from 1 to 100. Complete as many of these criteria as possible
@@ -25,7 +25,7 @@ Task : Write an app which will print the numbers from 1 to 100. Complete as many
 * Calculate and display the total execution time in seconds for the program executing
 
 
-###Luhn Test - Suggested time : 20 minutes
+### Luhn Test - Suggested time : 20 minutes
 ***
 The Luhn test is used by some credit card companies to distinguish valid credit card numbers from what could be a random selection of digits.
 
@@ -58,14 +58,14 @@ following numbers:
 
 
 
-###MVC Test - Suggested Time : 30 minutes
+### MVC Test - Suggested Time : 30 minutes
 ***
 
-####Task : The project is a basic web site, and a library but there are a few compilation errors and the program needs to be improved.
+#### Task : The project is a basic web site, and a library but there are a few compilation errors and the program needs to be improved.
 * Fix any issues and get the project compiling
 * Make all controllers inherit from `MyControllerBase`. This base class contains a lot of methods which allow messages to be passed back to the view for the user - the Alerts
 
-####Controller Test
+#### Controller Test
 
 * Add a message to the Index action of the Home controller to display the current time to the user. Use the code already included which is designed to report Alerts back to the view from controlller actions. You will need to
    1. Amend the Shared layout, and insert the line @Html.Alerts() above the @RenderBody
@@ -78,13 +78,13 @@ following numbers:
    2. Add a get action to that controller which accepts a number and translates that to a named weekday, where 0 is Sunday, and 6 is Saturday. eg /DaysOfTheWeek/4 would output Thursday
    3. (Optional) Change the name of the route which this controller responds to without changing the controller name. The new route should be /Days
 
-####ViewModel Test
+#### ViewModel Test
 This uses the HelloViewModel class, and the associated actions on the Home controller
 * Create a link from the Homepage to the new action (/Home/Hello/)
 * Make the Name property Mandatory, and with a maximum length of 30
 * Write a post method for the Hello action which validates the posted view model and displays the information back to the user above the form
 
-####Membership Test
+#### Membership Test
 Add new fields to the Acccount class, capture the first and last name. We already capture age as an integer. You will need to amend the ApplicationUser class
   1. Add First and Last names as public properties
   2. Add constraints to those fields - max string length (100)
