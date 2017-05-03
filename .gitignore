@@ -1,0 +1,15 @@
+packages/
+*.user
+*.suo
+.vs/
+*.orig
+*.mdf
+*.ldf
+*.bak
+FizzBuzz Test/bin/
+FizzBuzz Test/obj/
+MVC Test.Library/bin/
+MVC Test.Library/obj/
+MVC Test.Tests/obj/
+MVC Test/obj/
+MVC Test/bin/
