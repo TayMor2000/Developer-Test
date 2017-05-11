@@ -13,3 +13,7 @@ MVC Test.Library/obj/
 MVC Test.Tests/obj/
 MVC Test/obj/
 MVC Test/bin/
+Luhn Test/bin/
+Luhn Test/obj/
+Luhn Unit Test/obj/
+Luhn Unit Test/bin/
