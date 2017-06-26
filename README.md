@@ -48,13 +48,11 @@ For example, if the trial number is 49927398716:
 
 s1 + s2 = 70 which ends in zero which means that 49927398716 passes the Luhn test
 
-The task is to write a function/method/procedure/subroutine that will validate a number with the Luhn test, and use it to validate the 
-
-following numbers:
-49927398716
-49927398717
-1234567812345678
-1234567812345670
+The task is to write a function/method/procedure/subroutine that will validate a number with the Luhn test, and use it to validate the following numbers:
+* 49927398716
+* 49927398717
+* 1234567812345678
+* 1234567812345670
 
 
 
